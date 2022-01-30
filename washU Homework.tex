@@ -15,7 +15,7 @@
 %%% PAGE DIMENSIONS
 % to change the page dimensions
 \usepackage[margin=1in]{geometry} 
-\geometry{a4paper} % or letterpaper (US) or a5paper or....
+\geometry{letterpaper} % or letterpaper (US) or a5paper or....
 % \geometry{margin=2in} % for example, change the margins to 2 inches all round
 % \geometry{landscape} % set up the page for landscape
 %   read geometry.pdf for detailed page layout information
@@ -41,9 +41,15 @@
 \usepackage{calligra}
 \usepackage{mathtools}
 \usepackage{python}
+\usepackage{gensymb}
+\usepackage{tikz}
+
+%%% Custom commmands
+\newcommand{\vol}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
 
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\setlength{\headheight}{14pt}
 \pagestyle{fancy} % options: empty , plain , fancy
 \renewcommand{\headrulewidth}{1pt} % customise the layout...
 \lhead{}\chead{}\rhead{}
@@ -64,28 +70,47 @@
 
 %%% The "real" document content comes below...
 
-\title{CLASS NUMBER HW 1}
+\newcommand{\classNumber}{MEMS 1111 }
+\newcommand{\hwNumber}{01}
+\newcommand{\season}{Spring}
+
+\title{\classNumber HW \hwNumber}
 \author{Quinten Giglio}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
 
 \begin{document}
- \lhead{Quinten Giglio}
- \rhead{CLASS NUMBER Season YEAR Homework Number}
+ \lhead{\author}
+ \rhead{\classNumber \season \the\year{} Homework Number \hwNumber}
  
 \maketitle
 
 
-DUE: some day
+DUE: some day 
 
-Assignment
+Assignment:
 
-\section{Statement}
+\section*{Statement}
+\
 
-Statement of the problem
+\vol 
 
-\subsection{A subsection}
+\textbf{Given:}
 
-More text.
+These are the things that are given
+
+\textbf{Approach:}
+
+This is what the approach will be. dont forget your assumptions
+
+\textbf{Solve:}
+
+Soln goes here
+
+
+\textbf{Comments:}
+
+dont forget to reflect
+
 
 \end{document}
