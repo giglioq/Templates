@@ -68,24 +68,29 @@
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
-%%% END Article customizations
+%%% END Article STYLE customizations
 
 %%% The "real" document content comes below...
 
+%%%%% UPDATE THESE
 \newcommand{\classNumber}{MEMS 1111 }
 \newcommand{\hwNumber}{01}
 \newcommand{\season}{Spring}
+%%%%%%%
 
-\title{\classNumber HW \hwNumber}
+\title{\classNumber HW \hwNumber} % makes a title using the updated variables above
 \author{Quinten Giglio}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
 
 \begin{document}
+
+%%%%%% These define the header on each page except the first page
  \lhead{\author}
  \rhead{\classNumber \season\ \the\year{} Homework \hwNumber}
  
-\maketitle
+\maketitle % this is what happens on the first page
+
 
 
 DUE: some day 
