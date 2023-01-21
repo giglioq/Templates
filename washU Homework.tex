@@ -22,9 +22,9 @@
 
 \usepackage{graphicx} % support the \includegraphics command and options
 
-% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
 
-%%% PACKAGES
+%%%%%%%% PACKAGES
 \usepackage{booktabs} % for much better looking tables
 \usepackage{array} % for better arrays (eg matrices) in maths
 \usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
@@ -36,15 +36,15 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{lastpage}
-\usepackage{fancyhdr}
+\usepackage{fancyhdr} % used to make the page header
 \usepackage{accents}
 \usepackage{calligra}
 \usepackage{mathtools}
 \usepackage{python}
-\usepackage{gensymb}
-\usepackage{tikz}
-\usepackage{siunitx}
-\usepackage{hyperref}
+\usepackage{gensymb} % lots of math symbols
+\usepackage{tikz} % pretty diagrams
+\usepackage{siunitx} % used for formatting units
+\usepackage[urlcolor  = blue]{hyperref} % used for links
 
 %%% Custom commmands
 \newcommand{\vol}{{\ooalign{\hfil$V$\hfil\cr\kern0.08em--\hfil\cr}}}
@@ -83,7 +83,7 @@
 
 \begin{document}
  \lhead{\author}
- \rhead{\classNumber \season\ \the\year{} Homework Number \hwNumber}
+ \rhead{\classNumber \season\ \the\year{} Homework \hwNumber}
  
 \maketitle
 
@@ -110,6 +110,8 @@ This is what the approach will be. dont forget your assumptions
 
 Soln goes here
 
+
+$\int 2\pi r^4 dr$
 
 \textbf{Comments:}
 
