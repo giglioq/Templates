@@ -1,8 +1,13 @@
 
+.fbd_latexmk
+.eps
 .log
 .pdf
 .aux
 .gz
+.fls
+.out
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
